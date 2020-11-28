@@ -1,0 +1,2 @@
+-   To configure EsLint, Prettier and Husky --> https://www.robertcooper.me/using-eslint-and-prettier-in-a-typescript-project
+-   To configure EsLint, Prettier and Husky, check out -->https://github.com/cmacdonnacha/react-boilerplate
