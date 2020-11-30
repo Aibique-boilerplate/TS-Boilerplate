@@ -4,16 +4,16 @@ import Home from '../containers/Home';
 import NotFound from '../containers/NotFound';
 
 const App = (): JSX.Element => {
-    return (
-        <>
-            <Router>
-                <Switch>
-                    <Route exact path="/" component={Home} />
-                    <Route component={NotFound} />
-                </Switch>
-            </Router>
-        </>
-    );
+  return (
+    <>
+      <Router>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route component={NotFound} />
+        </Switch>
+      </Router>
+    </>
+  );
 };
 
 export default App;

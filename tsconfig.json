@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "module": "commonjs",
     "baseUrl": "src",
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
@@ -13,7 +14,9 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react"
+    "jsx": "react",
+    "strictNullChecks": true,
+    "typeRoots":["node_modules/@types", "src/types"]
   },
   "include": ["src"]
 }
